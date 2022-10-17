@@ -1,0 +1,59 @@
+.mint {
+	.mint-container {
+		position: relative;
+		z-index: 100000;
+		margin-top: 50px;
+		text-align: center;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		h1 {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 68px;
+			line-height: 88px;
+			color: #ffffff;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		p {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 24px;
+			text-align: center;
+			color: #ffffff;
+			width: 64%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.mint-flex {
+			width: 35%;
+			margin-left: auto;
+			margin-right: auto;
+			.item {
+				width: 23%;
+				p {
+					margin-top: 10px;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 21px;
+					color: #ffffff;
+				}
+			}
+			.flex-item {
+				width: 100%;
+				background: #ef1b2b;
+
+				h1 {
+					font-style: normal;
+					font-weight: 700;
+					font-size: 68px;
+					line-height: 68px;
+					color: #ffffff;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				}
+			}
+		}
+	}
+}
