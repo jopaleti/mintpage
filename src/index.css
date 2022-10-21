@@ -4,6 +4,8 @@ body {
 	font-family: "PT Sans", sans-serif;
 	padding: 0;
 	box-sizing: border-box;
+	height: 100vh;
+	overflow: hidden;
 }
 html,
 body {
