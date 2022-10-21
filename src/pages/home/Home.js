@@ -36,9 +36,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="foot">
-				<Footer />
-			</div>
+			<Footer />
 		</div>
 	);
 }
