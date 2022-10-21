@@ -3,7 +3,7 @@
 		position: fixed;
 		inset: 0;
 		background-color: black;
-		z-index: 100000000000000000000000000000000;
+		z-index: 100000000000000000000000000000000 !important;
 		.flex {
 			a {
 				color: #fff;
