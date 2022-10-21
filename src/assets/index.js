@@ -19,3 +19,4 @@ export { default as horn } from "./horn.png";
 export { default as but } from "./but.png";
 export { default as over } from "./over.png";
 export { default as hand } from "./hand.png";
+export { default as star } from "./star.png";

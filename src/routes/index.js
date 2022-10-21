@@ -15,4 +15,8 @@ export const routes = {
 		path: "team",
 		route: "/team",
 	},
+	story: {
+		path: "story",
+		route: "/story",
+	},
 };

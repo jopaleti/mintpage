@@ -12,7 +12,7 @@ function Navbar() {
 				</div>
 				<div className="nav-right flex items-center gap-10">
 					<Link to="/">Home</Link>
-					<Link to="/">Story</Link>
+					<Link to="/story">Story</Link>
 					<Link to="/faq">Faq</Link>
 					<a href="/">White Paper</a>
 					<Link to="/mint">Mint</Link>
