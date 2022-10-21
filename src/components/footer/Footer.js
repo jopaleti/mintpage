@@ -7,7 +7,7 @@ function Footer() {
 		<div className="footer relative z-50">
 			<div className="footer-content">
 				<hr />
-				<div className="flex items-center justify-between pb-6">
+				<div className="flex items-center justify-between pt-6 pb-6">
 					<div className="flex items-center gap-2 footer-lap">
 						<img src={dis} alt="img.jpg" />
 						<img src={twi} alt="img.jpg" />
