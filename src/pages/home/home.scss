@@ -1,5 +1,10 @@
 .home {
-	height: 100vh;
+	.foot {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	height: 100vh !important;
 	width: 100%;
 	overflow-y: hidden;
 	background: url("../../assets/home.png");
@@ -13,7 +18,6 @@
 		background-position: center;
 		background-size: cover;
 		position: relative;
-		height: 80vh !important;
 	}
 	.overlay {
 		z-index: 2;
