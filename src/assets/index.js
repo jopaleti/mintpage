@@ -20,3 +20,8 @@ export { default as but } from "./but.png";
 export { default as over } from "./over.png";
 export { default as hand } from "./hand.png";
 export { default as star } from "./star.png";
+export { default as speaker } from "./speaker.png";
+export { default as bar } from "./bar.png";
+export { default as fing } from "./fing.png";
+export { default as close } from "./close.png";
+export { default as line } from "./line.png";

@@ -6,6 +6,9 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
+	@media (max-width: 970px) {
+		background: url("../../assets/back.png");
+	}
 	.overlay {
 		z-index: 2;
 		position: absolute;
@@ -17,10 +20,40 @@
 			height: 100%;
 		}
 	}
+	.home-container {
+		position: absolute;
+		z-index: 100000;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		@media (max-width: 970px) {
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 90%;
+		}
+		// margin-left: auto;
+		// background-color: blue;
+		// margin-right: auto;
+	}
 	.home-content {
-		position: relative;
-		margin-top: 16%;
-		margin-left: 60%;
+		margin-left: 65%;
+		@media (max-width: 1863px) {
+			margin-left: 60%;
+			@media (max-width: 1630px) {
+				margin-left: 55%;
+				@media (max-width: 1450px) {
+					margin-left: 54%;
+					@media (max-width: 970px) {
+						margin-left: unset;
+						text-align: center;
+					}
+				}
+			}
+		}
+		// display: flex;
+		// margin-left: 60%;
 		h5 {
 			z-index: 1000000 !important;
 			font-style: normal;
@@ -38,6 +71,26 @@
 			line-height: 88px;
 			color: #ffffff;
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			@media (max-width: 1450px) {
+				font-size: 60px;
+				@media (max-width: 1251px) {
+					font-size: 55px;
+					@media (max-width: 1147px) {
+						font-size: 50px;
+						@media (max-width: 1630px) {
+							font-size: 45px;
+							@media (max-width: 432px) {
+								font-size: 36px;
+								line-height: 65px;
+								@media (max-width: 350px) {
+									font-size: 31px;
+									line-height: 50px;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		.btn {
 			display: inline-block;
@@ -57,6 +110,9 @@
 		}
 	}
 	.scroll {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 		margin-top: 50px;
 		h2 {
 			margin-top: 10px;
@@ -67,6 +123,16 @@
 			text-align: center;
 			text-transform: uppercase;
 			color: #ffffff;
+		}
+		@media (min-width: 971px) {
+			.tab {
+				display: none;
+			}
+		}
+		@media (max-width: 970px) {
+			.lap {
+				display: none;
+			}
 		}
 	}
 }

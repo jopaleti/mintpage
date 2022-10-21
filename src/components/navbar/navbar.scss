@@ -1,6 +1,37 @@
 .navbar {
+	.nav-res {
+		position: absolute;
+		inset: 0;
+		background-color: black;
+		z-index: 100000000000000000000000000;
+		.flex {
+			a {
+				color: #fff;
+				font-style: normal;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 31px;
+				color: #ffffff;
+			}
+		}
+	}
 	.navbar-top {
+		position: relative;
+		z-index: 10000;
+		@media (min-width: 971px) {
+			.bar-right {
+				display: none;
+			}
+		}
+		@media (max-width: 970px) {
+			.lap-right {
+				display: none;
+			}
+		}
 		.nav-right {
+			@media (max-width: 1090px) {
+				gap: 30px;
+			}
 			a {
 				font-style: normal;
 				font-weight: 700;
@@ -9,6 +40,12 @@
 				font-family: "PT Sans";
 				color: #fff;
 				z-index: 120000;
+				@media (max-width: 1210px) {
+					font-size: 20px;
+					@media (max-width: 1082px) {
+						font-size: 18px;
+					}
+				}
 			}
 		}
 	}

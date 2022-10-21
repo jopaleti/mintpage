@@ -14,5 +14,21 @@
 			text-align: right;
 			color: #ffffff;
 		}
+		@media (max-width: 970px) {
+			.footer-lap {
+				display: none;
+			}
+			div {
+				width: 100%;
+				h6 {
+					text-align: center;
+				}
+			}
+			@media (max-width: 428px) {
+				h6 {
+					font-size: 16px;
+				}
+			}
+		}
 	}
 }
