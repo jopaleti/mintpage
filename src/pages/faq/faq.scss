@@ -1,7 +1,7 @@
 .faq {
 	.faq-container {
 		position: relative;
-		z-index: 10000000000;
+		z-index: 100000;
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
@@ -13,6 +13,12 @@
 		line-height: 88px;
 		color: #ffffff;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		@media (max-width: 970px) {
+			text-align: center;
+			@media (max-width: 450px) {
+				font-size: 50px;
+			}
+		}
 	}
 	.faq-flex {
 		position: relative;
@@ -20,6 +26,9 @@
 
 		.items-left {
 			width: 65%;
+			@media (max-width: 970px) {
+				width: 100%;
+			}
 			.accordion-container {
 				p {
 					font-size: 20px;
@@ -41,17 +50,41 @@
 					transition: 0.4s;
 					.act {
 						display: none;
+						@media (max-width: 450px) {
+							height: 20px;
+							img {
+								height: 100%;
+							}
+						}
 					}
 					.default {
 						display: block;
+						@media (max-width: 450px) {
+							height: 20px;
+							img {
+								height: 100%;
+							}
+						}
 					}
 				}
 				.active {
 					.act {
 						display: block;
+						@media (max-width: 450px) {
+							height: 20px;
+							img {
+								height: 100%;
+							}
+						}
 					}
 					.default {
 						display: none;
+						@media (max-width: 450px) {
+							height: 20px;
+							img {
+								height: 100%;
+							}
+						}
 					}
 				}
 				.btn {
@@ -67,8 +100,19 @@
 						font-size: 24px;
 						line-height: 31px;
 						color: #ffffff;
-
 						text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+						@media (max-width: 970px) {
+							font-size: 18px;
+							@media (max-width: 405px) {
+								font-size: 15px;
+								@media (max-width: 345px) {
+									font-size: 13px;
+									@media (max-width: 320px) {
+										font-size: 12px;
+									}
+								}
+							}
+						}
 					}
 					small {
 						background: #d7080e;
@@ -93,6 +137,18 @@
 						font-size: 18px;
 						line-height: 24px;
 						color: #ffffff;
+						@media (max-width: 970px) {
+							font-size: 16px;
+							@media (max-width: 405px) {
+								font-size: 14px;
+								@media (max-width: 345px) {
+									font-size: 13px;
+									@media (max-width: 320px) {
+										font-size: 12px;
+									}
+								}
+							}
+						}
 					}
 					small {
 						background: #d7080e;
@@ -109,6 +165,9 @@
 		}
 		.items-right {
 			width: 30%;
+			@media (max-width: 970px) {
+				display: none;
+			}
 			.que {
 				height: 80%;
 				img {
