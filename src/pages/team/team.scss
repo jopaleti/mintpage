@@ -157,5 +157,15 @@
 			text-transform: uppercase;
 			color: #ffffff;
 		}
+		@media (min-width: 971px) {
+			.tab {
+				display: none;
+			}
+		}
+		@media (max-width: 970px) {
+			.lap {
+				display: none;
+			}
+		}
 	}
 }

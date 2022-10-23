@@ -6,6 +6,7 @@ import {
 	but,
 	faq,
 	faqover,
+	fing,
 	hand,
 	horn,
 	mouse,
@@ -126,11 +127,13 @@ function Team() {
 					</div>
 					<div className="scroll flex flex-col items-center justify-center">
 						<div className="cursor-pointer" onClick={() => scroll()}>
-							<img src={mouse} alt="img.jpg" />
+							<img src={mouse} alt="img.jpg" className="lap" />
+							<img src={fing} alt="img.jpg" className="tab" />
 						</div>
 						<h2>
 							Scroll Down to
-							<br /> read more
+							<br />
+							see More Members
 						</h2>
 					</div>
 				</div>
