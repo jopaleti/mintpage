@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Layout from "../../components/layout/Layout";
 import "./team.scss";
 import {
@@ -15,6 +15,23 @@ import {
 } from "../../assets";
 
 function Team() {
+	const next = useRef();
+	const [num, setNum] = useState(1);
+	const max = 2;
+	setTimeout(() => console.log(next.current), 2000);
+
+	const scroll = () => {
+		if (next.current.scrollTop <= 220) {
+			next.current.scrollTop += 220;
+			if (num < max) {
+				setNum(num + 1);
+			} else {
+				setNum(max);
+			}
+		} else if (next.current.scrollTop === 0) {
+			setNum(1);
+		}
+	};
 	return (
 		<div className="team">
 			<Layout background={faq} overlay={faqover}>
@@ -26,7 +43,10 @@ function Team() {
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book.
 					</p>
-					<div className="team-flex flex flex-wrap grow-0 shrink-0 items-center justify-between mt-8">
+					<div
+						ref={next}
+						className="team-flex flex flex-wrap gap-8 items-center justify-betwee mt-8"
+					>
 						<div className="flex-item">
 							<img src={arrow} alt="img.jpg" />
 							<div className="absolute over">
@@ -102,10 +122,10 @@ function Team() {
 					</div>
 					{/* QTY */}
 					<div className="qty mt-10">
-						<h4>1/2</h4>
+						<h4>{num}/2</h4>
 					</div>
 					<div className="scroll flex flex-col items-center justify-center">
-						<div>
+						<div className="cursor-pointer" onClick={() => scroll()}>
 							<img src={mouse} alt="img.jpg" />
 						</div>
 						<h2>
