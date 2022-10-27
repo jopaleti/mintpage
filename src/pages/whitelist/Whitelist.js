@@ -8,7 +8,7 @@ function Whitelist() {
 		<div className="whitelist h-full">
 			<Layout background={faq} overlay={faqover}>
 				<div className="whitelist-container flex items-start justify-center py-10 h-full">
-					<div className="whitelist-flex flex items-start justify-between">
+					<div className="whitelist-flex flex items-start justify-between pb-16">
 						<div className="flex-left">
 							<h1>Whitelist</h1>
 							<p className="mt-4">
