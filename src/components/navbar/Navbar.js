@@ -27,7 +27,7 @@ function Navbar() {
 						<Link to="/faq">Faq</Link>
 						<a href="/">White Paper</a>
 						<Link to="/mint">Mint</Link>
-						<a href="/">Whitelist</a>
+						<a href="/whitelist">Whitelist</a>
 						<Link to="/team">Team</Link>
 						<a href="/">Roadmap</a>
 						<a href="/">NFT Drops</a>

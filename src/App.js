@@ -1,5 +1,5 @@
 import "./App.css";
-import { Faq, Home, Mint, Story, Team } from "./pages";
+import { Faq, Home, Mint, Story, Team, Whitelist } from "./pages";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes } from "./routes";
 
@@ -18,6 +18,7 @@ function App() {
 					<Route exact path={routes.mint.route} element={<Mint />} />
 					<Route exact path={routes.team.route} element={<Team />} />
 					<Route exact path={routes.story.route} element={<Story />} />
+					<Route exact path={routes.whitelist.route} element={<Whitelist />} />
 				</Routes>
 			</Router>
 		</div>

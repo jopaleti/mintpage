@@ -25,3 +25,6 @@ export { default as bar } from "./bar.png";
 export { default as fing } from "./fing.png";
 export { default as close } from "./close.png";
 export { default as line } from "./line.png";
+export { default as arrbtn } from "./arrbtn.png";
+export { default as shield } from "./shield.png";
+export { default as lnv } from "./lnv.png";

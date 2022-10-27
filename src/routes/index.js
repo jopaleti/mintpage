@@ -19,4 +19,8 @@ export const routes = {
 		path: "story",
 		route: "/story",
 	},
+	whitelist: {
+		path: "whitelist",
+		route: "/whitelist",
+	},
 };
