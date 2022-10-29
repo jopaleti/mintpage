@@ -25,7 +25,7 @@ function Faq() {
 	return (
 		<div className="faq">
 			<Layout background={faq} overlay={faqover}>
-				<div className="faq-container mt-12">
+				<div className="faq-container mt-12 pb-32">
 					<h1>Faq</h1>
 					<div className="faq-flex flex items-center justify-between mb-10 mt-8">
 						<div className="items-left">

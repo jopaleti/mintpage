@@ -35,3 +35,4 @@ export { default as lad } from "./lad.png";
 export { default as lad1 } from "./lad1.png";
 export { default as lad2 } from "./lad2.png";
 export { default as lad3 } from "./lad3.png";
+export { default as blod } from "./blod.png";
