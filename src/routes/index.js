@@ -23,4 +23,12 @@ export const routes = {
 		path: "whitelist",
 		route: "/whitelist",
 	},
+	whitepaper: {
+		path: "whitepaper",
+		route: "/whitepaper",
+	},
+	roadmap: {
+		path: "roadmap",
+		route: "/roadmap",
+	},
 };

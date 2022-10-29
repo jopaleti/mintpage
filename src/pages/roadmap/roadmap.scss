@@ -1,0 +1,148 @@
+.roadmap {
+	.smaller-screen {
+		display: none;
+		@media (max-width: 900px) {
+			display: block;
+		}
+	}
+	.roadmap-container {
+		margin-top: 20px;
+		position: relative;
+		z-index: 100000;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		h1 {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 68px;
+			line-height: 88px;
+			color: #ffffff;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			text-align: center;
+		}
+		.roadmap-content {
+			position: relative;
+			width: 100%;
+			@media (max-width: 900px) {
+				display: none;
+			}
+			.road-img {
+				position: absolute;
+				width: 50%;
+				height: 570px;
+				left: 50%;
+				// top: 50%;
+				transform: translateX(-50%);
+				img {
+					object-position: center;
+				}
+			}
+			.roadmap-flex {
+				.roadmap-left {
+					padding-right: 10px;
+					width: 34%;
+					height: 500px;
+					// background-color: red;
+					overflow-y: auto;
+					scrollbar-width: thin;
+					// background-color: red;
+					scrollbar-color: red;
+					&::-webkit-scrollbar {
+						width: 10px;
+						// background: #d7080e;
+						// border-radius: 50px;
+					}
+					&::-webkit-scrollbar-track {
+						background: #050304;
+						border-radius: 50px;
+					}
+					&::-webkit-scrollbar-thumb {
+						background: #d7080e;
+						border-radius: 50px;
+					}
+					h3 {
+						font-style: normal;
+						font-weight: 700;
+						font-size: 24px;
+						line-height: 31px;
+						color: #d7080e;
+						text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+					}
+					p {
+						font-style: normal;
+						font-weight: 400;
+						font-size: 18px;
+						line-height: 24px;
+						color: #ffffff;
+						margin-bottom: 10px;
+					}
+				}
+				.roadmap-right {
+					padding-right: 10px;
+					width: 40%;
+					height: 500px;
+					// background-color: red;
+					overflow-y: auto;
+					scrollbar-width: thin;
+					// background-color: red;
+					scrollbar-color: red;
+					&::-webkit-scrollbar {
+						width: 10px;
+						// background: #d7080e;
+						// border-radius: 50px;
+					}
+					&::-webkit-scrollbar-track {
+						background: #050304;
+						border-radius: 50px;
+					}
+					&::-webkit-scrollbar-thumb {
+						background: #d7080e;
+						border-radius: 50px;
+					}
+					h3 {
+						font-style: normal;
+						font-weight: 700;
+						font-size: 24px;
+						line-height: 31px;
+						color: #d7080e;
+						text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+					}
+					p {
+						font-style: normal;
+						font-weight: 400;
+						font-size: 18px;
+						line-height: 24px;
+						color: #ffffff;
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+		.road-small {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			h3 {
+				font-style: normal;
+				font-weight: 700;
+				font-size: 22px;
+				line-height: 28px;
+				color: #d7080e;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+			p {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 22px;
+				color: #ffffff;
+			}
+			.img-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 20px;
+			}
+		}
+	}
+}

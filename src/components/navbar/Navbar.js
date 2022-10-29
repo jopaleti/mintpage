@@ -25,12 +25,12 @@ function Navbar() {
 						<Link to="/">Home</Link>
 						<Link to="/story">Story</Link>
 						<Link to="/faq">Faq</Link>
-						<a href="/">White Paper</a>
+						<Link href="/whitepaper">White Paper</Link>
 						<Link to="/mint">Mint</Link>
 						<Link to="/whitelist">Whitelist</Link>
 						<Link to="/team">Team</Link>
-						<a href="/">Roadmap</a>
-						<a href="/">NFT Drops</a>
+						<Link to="/roadmap">Roadmap</Link>
+						<Link to="/">NFT Drops</Link>
 						<div>
 							<img src={line} alt="img.jpg" />
 						</div>
@@ -51,12 +51,12 @@ function Navbar() {
 					<Link to="/">Home</Link>
 					<Link to="/story">Story</Link>
 					<Link to="/faq">Faq</Link>
-					<a href="/">White Paper</a>
+					<Link to="/whitepaper">White Paper</Link>
 					<Link to="/mint">Mint</Link>
-					<a href="/whitelist">Whitelist</a>
+					<Link to="/whitelist">Whitelist</Link>
 					<Link to="/team">Team</Link>
-					<a href="/">Roadmap</a>
-					<a href="/">NFT Drops</a>
+					<Link to="/roadmap">Roadmap</Link>
+					<Link to="/">NFT Drops</Link>
 				</div>
 				<div
 					className="bar-right cursor-pointer"
