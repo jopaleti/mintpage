@@ -1,5 +1,5 @@
 import React from "react";
-import { arrbtn, faq, faqover, lnv, shield } from "../../assets";
+import { arrbtn, faq, faqover, lnv } from "../../assets";
 import Layout from "../../components/layout/Layout";
 import "./whitelist.scss";
 
