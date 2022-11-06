@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import { bar, close, dis, ins, line, logo, twi, twitch } from "../../assets";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import { mythic } from "../../assets";
 
 function Navbar() {
 	const [open, setOpen] = useState(false);
 	const handleClick = () => {
 		setOpen(!open);
+	};
+	const read = () => {
+		window.open(mythic);
 	};
 	return (
 		<div className="navbar pt-9 px-10">
@@ -25,7 +29,10 @@ function Navbar() {
 						<Link to="/">Home</Link>
 						<Link to="/story">Story</Link>
 						<Link to="/faq">Faq</Link>
-						<Link href="/whitepaper">White Paper</Link>
+						{/* <Link to="/whitepaper">White Paper</Link> */}
+						<Link onClick={() => read()} className="cursor-pointer">
+							White Paper
+						</Link>
 						<Link to="/mint">Mint</Link>
 						<Link to="/whitelist">Whitelist</Link>
 						<Link to="/team">Team</Link>
@@ -51,7 +58,10 @@ function Navbar() {
 					<Link to="/">Home</Link>
 					<Link to="/story">Story</Link>
 					<Link to="/faq">Faq</Link>
-					<Link to="/whitepaper">White Paper</Link>
+					{/* <Link to="/whitepaper">White Paper</Link> */}
+					<Link onClick={() => read()} className="cursor-pointer">
+						White Paper
+					</Link>
 					<Link to="/mint">Mint</Link>
 					<Link to="/whitelist">Whitelist</Link>
 					<Link to="/team">Team</Link>

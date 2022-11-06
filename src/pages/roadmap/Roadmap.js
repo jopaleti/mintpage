@@ -20,26 +20,26 @@ function Roadmap() {
 									<div className="mt-4">
 										<div className="flex items-start gap-3">
 											<img src={fire} alt="img.jpg" />
-											<p>New characters will be revealed.</p>
+											<p>
+												Everyday 2 members from the MGB community will be
+												randomly airdropped 1 Nft each based on their activity
+												in the general chat or participation in #fanart section.{" "}
+											</p>
 										</div>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
 										<p>
-											Everyday 2 members from the MGB community will be randomly
-											airdropped 1 NFT each based on their activity in the
-											general chat or participation in #fanart section. 100 NFT
-											allocated for this.
+											The 50 most active members on the server will be rewarded.
 										</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>
-											The 50 most active members on the server will be rewarded
-											weekly. First 1000 members to get to level 3 on our server
-											will not only be automatically whitelisted but also
-											entered into a raffle for airdrop prior to release.
-										</p>
+										<p>Launch of MGB official website</p>
+									</div>
+									<div className="flex items-start gap-3">
+										<img src={fire} alt="img.jpg" />
+										<p>Price and Mint date announced</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
@@ -47,34 +47,32 @@ function Roadmap() {
 									</div>
 								</div>
 								<div className="mt-5">
-									<h3>PHASE TWO</h3>
+									<h3>PHASE THREE</h3>
 									<div className="mt-4">
 										<div className="flex items-start gap-3">
 											<img src={fire} alt="img.jpg" />
-											<p>New characters will be revealed.</p>
+											<p>AMA discussion with community</p>
 										</div>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>
-											Everyday 2 members from the MGB community will be randomly
-											airdropped 1 NFT each based on their activity in the
-											general chat or participation in #fanart section. 100 NFT
-											allocated for this.
-										</p>
+										<p>Whitelist Closed</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>
-											The 50 most active members on the server will be rewarded
-											weekly. First 1000 members to get to level 3 on our server
-											will not only be automatically whitelisted but also
-											entered into a raffle for airdrop prior to release.
-										</p>
+										<p>Partnership with other projects</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Winners for giveaways announced</p>
+										<p>Whitelist sale</p>
+									</div>
+									<div className="flex items-start gap-3">
+										<img src={fire} alt="img.jpg" />
+										<p>Public sale</p>
+									</div>
+									<div className="flex items-start gap-3">
+										<img src={fire} alt="img.jpg" />
+										<p>Special announcement about the project</p>
 									</div>
 								</div>
 							</div>
@@ -84,30 +82,18 @@ function Roadmap() {
 									<div className="mt-4">
 										<div className="flex items-start gap-3">
 											<img src={fire} alt="img.jpg" />
-											<p>Launch of MGB official website.</p>
+											<p>Host giveaways for the community on discord</p>
 										</div>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Host giveaways for the community on demand.</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
 										<p>
-											Open whitelist to give everyone a fair chance at minting.
+											Open whitelist to give everyone a fair chance at minting
 										</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Whitelist wallet registration open on website.</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
-										<p>Host social media giveaways after whitelist is open.</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
-										<p>Price and Mint date announced.</p>
+										<p>Host social media giveaways after whitelist is open</p>
 									</div>
 								</div>
 								<div className="mt-5">
@@ -115,7 +101,7 @@ function Roadmap() {
 									<div className="mt-4">
 										<div className="flex items-start gap-3">
 											<img src={fire} alt="img.jpg" />
-											<p>AMA discussion with community.</p>
+											<p>AMA discussion with community</p>
 										</div>
 									</div>
 									<div className="flex items-start gap-3">
@@ -124,40 +110,19 @@ function Roadmap() {
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Whitelist sale.</p>
+										<p>Partnership with other projects</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Public sale.</p>
+										<p>Whitelist sale</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>Partnership with other projects.</p>
+										<p>Public sale</p>
 									</div>
 									<div className="flex items-start gap-3">
 										<img src={fire} alt="img.jpg" />
-										<p>
-											50% sold, $5,000 in Eth will be given away to the
-											community.
-										</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
-										<p>
-											75% sold, $5,000 in Eth will be donated to a charity
-											chosen by holders.
-										</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
-										<p>
-											100% sold, $10,000 in Eth will be given back to the
-											community.
-										</p>
-									</div>
-									<div className="flex items-start gap-3">
-										<img src={fire} alt="img.jpg" />
-										<p>Special announcement about the project.</p>
+										<p>Special announcement about the project</p>
 									</div>
 								</div>
 							</div>
@@ -171,29 +136,17 @@ function Roadmap() {
 								<h3 className="mb-4">PHASE ONE</h3>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Launch of MGB official website.</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>Host giveaways for the community on demand.</p>
+									<p>Host giveaways for the community on discord</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
 									<p>
-										Open whitelist to give everyone a fair chance at minting.
+										Open whitelist to give everyone a fair chance at minting
 									</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Whitelist wallet registration open on website.</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>Host social media giveaways after whitelist is open.</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>Price and Mint date announced.</p>
+									<p>Host social media giveaways after whitelist is open</p>
 								</div>
 							</div>
 							<div className="img-container">
@@ -205,29 +158,29 @@ function Roadmap() {
 								<h3 className="mb-4">PHASE TWO</h3>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>New characters will be revealed.</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
 									<p>
 										Everyday 2 members from the MGB community will be randomly
-										airdropped 1 NFT each based on their activity in the general
-										chat or participation in #fanart section. 100 NFT allocated
-										for this.
+										airdropped 1 Nft each based on their activity in the general
+										chat or participation in #fanart section.{" "}
 									</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
 									<p>
-										The 50 most active members on the server will be rewarded
-										weekly. First 1000 members to get to level 3 on our server
-										will not only be automatically whitelisted but also entered
-										into a raffle for airdrop prior to release.
+										The 50 most active members on the server will be rewarded.
 									</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Winners for giveaways announced </p>
+									<p>Launch of MGB official website</p>
+								</div>
+								<div className="flex items-center gap-2 mb-2">
+									<img src={fire} alt="img.jpg" />
+									<p>Price and Mint date announced</p>
+								</div>
+								<div className="flex items-center gap-2 mb-2">
+									<img src={fire} alt="img.jpg" />
+									<p>Winners for giveaways announced</p>
 								</div>
 							</div>
 							<div className="img-container">
@@ -239,47 +192,27 @@ function Roadmap() {
 								<h3 className="mb-4">PHASE THREE</h3>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>AMA discussion with community.</p>
+									<p>AMA discussion with community</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Whitelist Closed.</p>
+									<p>Whitelist Closed</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Whitelist sale.</p>
+									<p>Partnership with other projects</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Public sale.</p>
+									<p>Whitelist sale</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Partnership with other projects.</p>
+									<p>Public sale</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>
-										50% sold, $5,000 in Eth will be given away to the community.
-									</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>
-										75% sold, $5,000 in Eth will be donated to a charity chosen
-										by holders.
-									</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>
-										100% sold, $10,000 in Eth will be given back to the
-										community.
-									</p>
-								</div>
-								<div className="flex items-center gap-2 mb-2">
-									<img src={fire} alt="img.jpg" />
-									<p>Special announcement about the project.</p>
+									<p>Special announcement about the project</p>
 								</div>
 							</div>
 							<div className="img-container">
@@ -292,24 +225,27 @@ function Roadmap() {
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
 									<p>
-										All holders that mint 3 different characters characters and
-										keep them in their wallets will be randomly airdropped our
-										very first MGB NFT origin story release.
+										All holders that mint 3 different characters and keep them
+										in their wallets will be randomly airdropped our very first
+										MGB Nft origin story release.
 									</p>
+								</div>
+								<div className="flex items-center gap-2 mb-2">
+									<img src={fire} alt="img.jpg" />
+									<p>We will reveal 10% of the collection</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
 									<p>
 										Claims section will be opened on website for holders to
-										“Paint” their NEFT story.
+										“Print” their nft story.
 									</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
 									<p>
 										All those that missed the airdropped story will be able to
-										claim theirs when they meet the criteria if they act in
-										time.
+										claim theirs when they meet the criteria{" "}
 									</p>
 								</div>
 								<div className="flex items-center gap-2 mb-2">
@@ -318,7 +254,7 @@ function Roadmap() {
 								</div>
 								<div className="flex items-center gap-2 mb-2">
 									<img src={fire} alt="img.jpg" />
-									<p>Burn system revealed.</p>
+									<p>Burn system revealed</p>
 								</div>
 							</div>
 							<div className="img-container">

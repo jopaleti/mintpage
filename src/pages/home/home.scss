@@ -28,6 +28,7 @@
 	.home-container {
 		position: absolute;
 		z-index: 100000;
+		// margin-top: 10%;
 		top: 60%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -137,6 +138,27 @@
 		@media (max-width: 970px) {
 			.lap {
 				display: none;
+			}
+		}
+	}
+	.swipe {
+		display: none;
+	}
+	.map {
+		height: 100%;
+
+		z-index: 10000;
+		position: relative;
+		.map-container {
+			height: 100%;
+			width: 100%;
+			margin-top: auto;
+			margin-bottom: auto;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				object-position: center;
 			}
 		}
 	}

@@ -106,12 +106,34 @@
 						}
 					}
 				}
+				.para {
+					display: none;
+				}
 				p {
 					font-style: normal;
 					font-weight: 400;
 					font-size: 18px;
 					line-height: 24px;
 					color: #ffffff;
+					height: 250px;
+					// background-color: red;
+					overflow-y: auto;
+					scrollbar-width: thin;
+					// background-color: red;
+					scrollbar-color: red;
+					&::-webkit-scrollbar {
+						width: 10px;
+						// background: #d7080e;
+						// border-radius: 50px;
+					}
+					&::-webkit-scrollbar-track {
+						background: #050304;
+						border-radius: 50px;
+					}
+					&::-webkit-scrollbar-thumb {
+						background: #d7080e;
+						border-radius: 50px;
+					}
 					@media (max-width: 1460px) {
 						font-size: 14px;
 						line-height: 18px;

@@ -54,7 +54,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5>Karlo - 2d concept artist</h5>
 							</div>
 						</div>
 						<div className="flex-item">
@@ -63,7 +63,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5>Segeo - 2d artist</h5>
 							</div>
 						</div>
 						<div className="flex-item">
@@ -72,7 +72,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5>Daniel - 2d/creative artist</h5>
 							</div>
 						</div>
 						<div className="flex-item">
@@ -81,7 +81,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5>David - concept artist</h5>
 							</div>
 						</div>
 						<div className="flex-item">
@@ -90,7 +90,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5></h5>
 							</div>
 						</div>
 						<div className="flex-item">
@@ -99,7 +99,7 @@ function Team() {
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
 							<div className="text-over">
-								<h5>Julian</h5>
+								<h5></h5>
 							</div>
 						</div>
 						{/* <div className="flex-item">
