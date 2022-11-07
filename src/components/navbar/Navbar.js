@@ -1,10 +1,21 @@
-import React, { useState } from "react";
-import { bar, close, dis, ins, line, logo, twi, twitch } from "../../assets";
+import React, { useEffect, useState } from "react";
+import {
+	bar,
+	close,
+	dis,
+	ins,
+	line,
+	loading,
+	logo,
+	twi,
+	twitch,
+} from "../../assets";
 import "./navbar.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { mythic } from "../../assets";
 
 function Navbar() {
+	const [loader, setLoader] = useState(false);
 	const [open, setOpen] = useState(false);
 	const handleClick = () => {
 		setOpen(!open);
@@ -12,8 +23,17 @@ function Navbar() {
 	const read = () => {
 		window.open(mythic);
 	};
+	var location = useLocation();
+	useEffect(() => {
+		setLoader(true);
+	}, [location]);
 	return (
 		<div className="navbar pt-9 px-10">
+			{loader && (
+				<div className="loader">
+					<img src={loading} alt="img.jpg" />
+				</div>
+			)}
 			{/* Responsive navbar */}
 			{open && (
 				<div className="nav-res pt-6">

@@ -40,11 +40,11 @@ function Home() {
 			console.log(startingY, movingY);
 		}
 	}
-	const disp = () => {
-		console.log("DDDDDD");
-		swipe1.current.style.display = "none";
-		swipe2.current.style.display = "block";
-	};
+	// const disp = () => {
+	// 	console.log("DDDDDD");
+	// 	swipe1.current.style.display = "none";
+	// 	swipe2.current.style.display = "block";
+	// };
 	return (
 		<div className="home">
 			<div className="overlay z-10">
@@ -57,7 +57,6 @@ function Home() {
 				onTouchStart={() => touchstart(swipe1)}
 				onTouchMove={() => touchmove(swipe1, swipe2)}
 				onTouchEnd={() => touchend()}
-				onWheel={() => disp()}
 			>
 				<div className="text-last">
 					<div className="home-content">

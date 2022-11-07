@@ -38,3 +38,4 @@ export { default as lad3 } from "./lad3.png";
 export { default as blod } from "./blod.png";
 export { default as map } from "./map.jpg";
 export { default as mythic } from "./mythic.pdf";
+export { default as loading } from "./loading.png";

@@ -1,9 +1,33 @@
 .navbar {
+	.loader {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 200000;
+		top: 0;
+		bottom: 0;
+		right: 100%;
+		animation: loader 3s ease-in-out;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	@keyframes loader {
+		0% {
+			right: 0;
+		}
+		100% {
+			right: 200%;
+		}
+	}
 	.nav-res {
 		position: fixed;
 		inset: 0;
 		background-color: black;
-		z-index: 900000 !important;
+		z-index: 9000000 !important;
 		.flex {
 			a {
 				color: #fff;
