@@ -89,18 +89,14 @@ function Team() {
 							<div className="absolute over">
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
-							<div className="text-over">
-								<h5></h5>
-							</div>
+							<div className="text-over">{/* <h5></h5> */}</div>
 						</div>
 						<div className="flex-item">
 							<img src={run} alt="img.jpg" />
 							<div className="absolute over">
 								<img src={over} alt="img.jpg" className="w-full h-full" />
 							</div>
-							<div className="text-over">
-								<h5></h5>
-							</div>
+							<div className="text-over">{/* <h5></h5> */}</div>
 						</div>
 						{/* <div className="flex-item">
 							<img src={run} alt="img.jpg" />
